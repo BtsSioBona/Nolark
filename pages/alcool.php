@@ -26,7 +26,7 @@
         <section id="formulaire">
           <form id="form_contact" name="form_contact" action="#">
               <fieldset id="coordo">
-                  <legend>Simulateur</legend>
+                  <legend>Simulateur d'alcoolémie</legend>
                   <p><label for="#num_ancien">Années d'ancienneté :</label> <input type="number" name="anciennete" id="anciennete" min="0" max="100" class="simulationForm" /></p>
                   <p><label for="#num_S20">Casques S20 vendus :</label> <input type="number" name="S20" id="S20" min="0" max="999" class="simulationForm" /></p>
                   <p><label for="#num_xspirit">Casques X-Spirit vendus :</label> <input type="number" name="XSpirit" id="XSpirit" min="0" max="500" class="simulationForm" /></p>
