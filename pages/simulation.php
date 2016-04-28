@@ -20,7 +20,6 @@
                ?>
         </ul>
         </nav>
-        ?>
       </header>
         <br />
         <section id="formulaire">

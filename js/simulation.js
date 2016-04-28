@@ -72,7 +72,7 @@ window.addEventListener("load", function () {
         }
     }
 // Fonction Calcul de comission d'ancienneté  : Le nombre d'année et le salaire fixe en param
-    function aciennete(nbAnnee, salaireFix) {
+    function anciennete(nbAnnee, salaireFix) {
         if (nbAnnee <= ancien1)
         {
             return 0.0;

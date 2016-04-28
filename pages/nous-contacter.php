@@ -18,7 +18,6 @@
                ?>
         </ul>
         </nav>
-        ?>
       </header>
         <h1>Nous localiser :</h1>
 

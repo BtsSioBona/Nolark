@@ -19,7 +19,6 @@
                ?>
         </ul>
         </nav>
-        ?>
       </header>
         <section id="video">
             <article>

@@ -18,7 +18,6 @@
                ?>
         </ul>
         </nav>
-        ?>
       </header>
         <br />
         <h1>Nous reconnaître :</h1>
