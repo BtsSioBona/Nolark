@@ -1,0 +1,5 @@
+nolark:
+    resource: "@NolarkBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
