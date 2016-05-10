@@ -1,10 +1,4 @@
-/*
-    Document   : styles.css
-    Created on : 24 sept. 2013, 14:01:00
-    Author     : JG
-    Description: CSS de démo pour Nolark
-*/
- @font-face { font-family: Sansumi; src: url('../fonts/Sansumi-Regular.ttf'); }
+@font-face { font-family: Sansumi; src: url('../fonts/Sansumi-Regular.ttf'); }
 
 
 html {
@@ -13,7 +7,7 @@ html {
 h1 {
     color: red;
     text-align: center !important;
-    font-family: Sansumi;
+    font-family: Sansumi, serif;
 
 }
 
@@ -44,7 +38,7 @@ nav li a {
     color: white;
     font-weight: bold;
     text-decoration: none;
-    font-family: Sansumi;
+    font-family: Sansumi, serif;
 }
 
 nav li a:hover {
@@ -72,7 +66,7 @@ nav li a:hover {
 
 #principal aside {
     margin-top: 0;
-    background: transparent url('../images/TOPVENTES.gif') no-repeat 0 0;
+    background: transparent url('../images/TOPVENTES.GIF') no-repeat 0 0;
     vertical-align: top;
     width: 27%;
     float: right;
@@ -109,7 +103,7 @@ nav li a:hover {
 }
 
 #sectionthema a {
-    font-family: Sansumi;
+    font-family: Sansumi, serif;
 
     font-size: xx-large;
     font-weight:400;
@@ -128,7 +122,7 @@ nav li a:hover {
 #sectionthema #gauche:hover, #sectionthema #milieu:hover, #sectionthema #droite:hover {
     border-radius: 10px;
     -webkit-transform:scale(1.3);
-transform:scale(1.3);
+    transform:scale(1.3);
 }
 
 
@@ -168,7 +162,7 @@ transform:scale(1.3);
 
 footer {
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     height: 25px;
     width: 100%;
     background-color:#2d2d2d;
@@ -189,12 +183,12 @@ footer a{
 
 
 @media all and (min-width: 768px) and (max-width: 1080px) {
-header { width: auto; margin: 0; height: 160px;}
+    header { width: auto; margin: 0; height: 160px;}
     nav { margin-top: 0;}
     nav ul { margin-left: 0; margin-top: 160px; padding-left: 0;}
     nav li a { display: inline; margin-top: 1px; height: 25px; padding: 1px;}
     #principal { width: auto; height: auto; display: inline-block;}
-    #principal article {  height: 0px; float: left; }
+    #principal article {  height: 0; float: left; }
     #principal aside {}
     #sectionthema { height: auto; margin: 0 auto 0 auto; width: 100%; }
     #sectionthema a {
@@ -205,7 +199,7 @@ header { width: auto; margin: 0; height: 160px;}
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
-header { background-image: none; width: auto; margin: 0; height: 160px;}
+    header { background-image: none; width: auto; margin: 0; height: 160px;}
     nav { margin-top: -160px;}
     nav ul { margin-left: 0; margin-top: 160px; padding-left: 0;}
     nav li a { display: block; margin-top: 1px; height: 25px; padding: 1px;}

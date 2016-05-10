@@ -31,14 +31,13 @@
     text-transform : uppercase;
     text-align: left;
     color: red;
-    font-family: 'Fuse';
+    font-family: 'Fuse', serif;
     font-size: xx-large;
 }
 
 #casques .modele {
     text-transform : capitalize;
     color: black;
-        color: white;
 
 }
 
@@ -128,7 +127,7 @@ body, #casques article p.marque { font-size: 15pt; font-family: serif; }
 header, nav, footer, #video, #casques article div.classement { display: none; }
 #casques article { width: 100%; height: auto; margin: 0; }
  #casques article img { float: left; }
- #casques article p.prix, #casques article p.marque,#casques article p.modele, #casques article p.stockok, #casques article p.stockko { float: left; padding: 58.5px 10px; }
+ #casques article p.prix, #casques article p.marque,#casques article p.modele, #casques article p.stockok, #casques article p.stockko { float: left; padding: 58px 10px; }
  #casques article p.stockok,#casques article p.stockko { background-color: transparent; width: 200px; }
  #casques article p.modele { width: 330px; }
  #casques article p.stockok abbr:after,#casques article p.stockko abbr:after
