@@ -10,4 +10,8 @@ namespace NolarkBundle\Repository;
  */
 class typeRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function getArrayType() {
+        return $this->createQueryBuilder('t')->select('t.libelle')->getQuery()->getArrayResult();
+    }
+
 }

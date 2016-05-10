@@ -1,10 +1,10 @@
 <nav>
     <ul>
         <li><a href="{{ path('index') }}">Accueil</a></li>
-        <li><a href="#">Route</a></li>
-        <li><a href="#">Cross</a></li>
-        <li><a href="#">Piste</a></li>
-        <li><a href="#">Enfants</a></li>
+        <li><a href="{{ path('route', {type: 'route'}) }}">Route</a></li>
+        <li><a href="{{ path('route', {type: 'cross'}) }}">Cross</a></li>
+        <li><a href="{{ path('route', {type: 'piste'}) }}">Piste</a></li>
+        <li><a href="{{ path('route', {type: 'enfants'}) }}">Enfants</a></li>
         <li><a href="#">La team</a></li>
         <li><a href="#">Nous contacter</a></li>
     </ul>

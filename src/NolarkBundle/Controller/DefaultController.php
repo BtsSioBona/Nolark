@@ -16,10 +16,16 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/casque/{type}", defaults={"type" = "route"},
-     *     requirements={"type": "\w+"})
+     * @Route("/casque/{type}", requirements={"type": "\w+"}, name="route")
      */
     public function casqueAction($type){
-        
+        $ExistingType = $this->getDoctrine()->getRepository('NolarkBundle:type')->getArrayType();
+
+        foreach ($ExistingType as $i) {
+            if ($i['libelle'] === $type) {
+                return $this->render('NolarkBundle::casque.html.twig', array('type' => $type));
+            }
+        }
+        throw $this->createNotFoundException('Le type de casque n\'existe pas');
     }
 }
