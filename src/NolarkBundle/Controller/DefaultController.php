@@ -23,9 +23,12 @@ class DefaultController extends Controller
 
         foreach ($ExistingType as $i) {
             if ($i['libelle'] === $type) {
-                return $this->render('NolarkBundle::casque.html.twig', array('type' => $type));
+                $casques = $this->getDoctrine()->getRepository('NolarkBundle:casque')->getCasqueByType($type);
+                
+                return $this->render('NolarkBundle::casque.html.twig', array('type' => $type, 'casques' => $casques));
             }
         }
+        
         throw $this->createNotFoundException('Le type de casque n\'existe pas');
     }
 }

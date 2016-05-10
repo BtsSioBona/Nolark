@@ -4,8 +4,29 @@
     {{ parent() }} - {{ type|capitalize }}
 {% endblock title %}
 
+{% block css %}
+    <link rel="stylesheet" href="{{ asset('bundles/nolark/css/casques.css') }}" type="text/css"/>
+{% endblock css %}
+
+
 {% block body %}
     <section id="casques">
+        {% for casque in casques %}
+            <article>
+                <img src="{{ asset('bundles/nolark/images/casques/' ~ type ~ '/' ~ casque.image) }}"
+                     alt="{{ casque.modele }}" title="{{ casque.modele }}"/>
+                {% if casque.stock <= 0 %}
+                    <p class="stockko"><abbr data-tip="Plus en stock...">Rupture</abbr></p>
+                {% else %}
+                    <p class="stockok"><abbr data-tip="Plus que {{ casque.stock }} en stock...">stock</abbr></p>
+                {% endif %}
+
+                <p class="prix">{{ casque.prix }}€</p>
+                <p class="marque">{{ casque.marque }}</p>
+                <p class="modele">{{ casque.modele }}</p>
+                <div class="classement classement{{ casque.classement }}"></div>
+            </article>
+        {% endfor %}
     </section>
 {% endblock body %}
 

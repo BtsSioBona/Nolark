@@ -136,3 +136,17 @@ header, nav, footer, #video, #casques article div.classement { display: none; }
  #casques article p.stockko abbr:before { text-transform: none; content: "/!\\ "; }
 
 }
+
+#video article {
+    float: left;
+    width: 450px;
+    height: 270px;
+    color: white;
+
+}
+
+#video article img {
+    float: left;
+    color: white;
+
+}

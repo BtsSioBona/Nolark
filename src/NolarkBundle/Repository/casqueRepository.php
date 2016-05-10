@@ -10,4 +10,11 @@ namespace NolarkBundle\Repository;
  */
 class casqueRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function getCasqueByType($type) {
+        return $this->createQueryBuilder('c')
+            ->select('m.nom as marque, c.prix, c.modele, c.classement, c.stock, c.image')
+            ->innerJoin('c.marque', 'm')
+            ->innerJoin('c.type', 't')
+            ->where('t.libelle = :type')->setParameter('type', $type)->getQuery()->getArrayResult();
+    }
 }
