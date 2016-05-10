@@ -20,8 +20,8 @@
     </section>
     <section id="sectionthema">
         <h1>Catégories les plus populaires</h1>
-        <article id="gauche"><a href="#">Route</a></article>
-        <article id="milieu"><a href="#">Cross</a></article>
-        <article id="droite"><a href="#">Piste</a></article>
+        <article id="gauche"><a href="{{ path('route', {type: 'route'}) }}">Route</a></article>
+        <article id="milieu"><a href="{{ path('route', {type: 'cross'}) }}">Cross</a></article>
+        <article id="droite"><a href="{{ path('route', {type: 'piste'}) }}">Piste</a></article>
     </section>
 {% endblock body %}
