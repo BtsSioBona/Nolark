@@ -12,6 +12,14 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('NolarkBundle:Default:index.html.twig');
+        return $this->render('NolarkBundle::index.html.twig');
+    }
+
+    /**
+     * @Route("/casque/{type}", defaults={"type" = "route"},
+     *     requirements={"type": "\w+"})
+     */
+    public function casqueAction($type){
+        
     }
 }

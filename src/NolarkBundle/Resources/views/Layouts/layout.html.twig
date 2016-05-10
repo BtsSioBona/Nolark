@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Nolark{% block title %}{% endblock title %}</title>
+    <link rel="stylesheet" href="{{ asset('bundles/nolark/css/styles.css') }}" type="text/css"/>
+</head>
+<body>
+<header>
+    {% include('NolarkBundle:Components:nav.html.twig') %}
+</header>
+
+{% block body %}{% endblock body %}
+
+<footer><p>&copy;2016 Nolark - Créé par <a href="https://sevenn.fr/">Sevenn</a><p></footer>
+
+</body>
+
+
+</html>
