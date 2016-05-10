@@ -38,4 +38,11 @@ class DefaultController extends Controller
     public function teamAction() {
         return $this->render('NolarkBundle::team.html.twig');
     }
+
+    /**
+     * @Route("/contact", name="contact")
+     */
+    public function contactAction() {
+        return $this->render('NolarkBundle::contact.html.twig');
+    }
 }
