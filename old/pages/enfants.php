@@ -5,9 +5,9 @@
         <meta charset="UTF-8" />
         <meta name="author" content="Prénom Nom" />
         <meta name="description" content="Découvrez des casques moto dépassant même les exigences des tests de sécurité. Tous les casques Nolark au meilleur prix et avec en prime la livraison gratuite !" />
-        <link rel="stylesheet" href="../css/styles.css" />
-        <link rel="stylesheet" href="../css/casques.css" />
-        <link rel="stylesheet" href="../css/enfants.css" />
+        <link rel="stylesheet" href="../../src/NolarkBundle/Resources/public/css/styles.css" />
+        <link rel="stylesheet" href="../../src/NolarkBundle/Resources/public/css/casques.css" />
+        <link rel="stylesheet" href="../../src/NolarkBundle/Resources/public/css/enfants.css" />
     </head>
     <body>
       <header>
@@ -22,7 +22,7 @@
       </header>
         <section id="video">
             <article>
-                <img src="../images/attention.png" alt="Post-It : Penser à rentrer en vie" />
+                <img src="../../src/NolarkBundle/Resources/public/images/attention.png" alt="Post-It : Penser à rentrer en vie" />
                 <p>On est tous d'accord pour dire que la sécurité est primordiale lorsqu'on roule à deux roues. Personne n'envisagerait de rouler sans casque ! Et pourtant, certains omettent l'essentiel : Attacher son casque !</p>
                 <p>C'est pourquoi Nolark vous présente cette vidéo conçue par "<a href="http://scootxperience.com" target="_blank">ScootXperience</a>" qui vous démontre que le fait d'attacher son casque peut tout changer...</p>
                 <p>Rappelons l'essentiel à nos enfants et donnons leurs de bonnes habitudes.</p>
@@ -33,7 +33,7 @@
         <section id="casques">
             <!-- ------------------------- LIGNE N°1 ------------------------- -->
             <article>
-                <img src="../images/casques/enfants/bobby-blanc.jpg" alt="Bobby blanc" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/bobby-blanc.jpg" alt="Bobby blanc" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Bobby</p>
@@ -41,7 +41,7 @@
                 <div class="classement classement05"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/bobby-noir-rose.jpg" alt="Bobby noir rose" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/bobby-noir-rose.jpg" alt="Bobby noir rose" />
                 <p class="stockok"><abbr data-tip="25 casques en stock">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Bobby</p>
@@ -49,7 +49,7 @@
                 <div class="classement classement10"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/bobby-noir.jpg" alt="Bobby noir" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/bobby-noir.jpg" alt="Bobby noir" />
                 <p class="stockko"><abbr data-tip="Sur commande uniquement">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Bobby</p>
@@ -57,7 +57,7 @@
                 <div class="classement classement15"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/casque-enfant-givi-hps-blanc.jpg" alt="Givi HPS Blanc" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-enfant-givi-hps-blanc.jpg" alt="Givi HPS Blanc" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">250€</p>
                 <p class="marque">Givi</p>
@@ -65,7 +65,7 @@
                 <div class="classement classement20"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/casque-enfant-nexx-x60-vision-plus-rose.jpg" alt="Nexx x60 Vision plus rose" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-enfant-nexx-x60-vision-plus-rose.jpg" alt="Nexx x60 Vision plus rose" />
                 <p class="stockok"><abbr data-tip="15 casques en stock">stock</abbr></p>
                 <p class="prix">209,99€</p>
                 <p class="marque">Nexx</p>
@@ -74,7 +74,7 @@
             </article>
             <!-- ------------------------- LIGNE N°2 ------------------------- -->
             <article>
-                <img src="../images/casques/enfants/casque-enfant-project-squalo-blanc.jpg" alt="Project Squalo blanc" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-enfant-project-squalo-blanc.jpg" alt="Project Squalo blanc" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">269,99€</p>
                 <p class="marque">Project</p>
@@ -82,7 +82,7 @@
                 <div class="classement classement30"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/casque-enfant-project-squalo-jaune.jpg" alt="Project Squalo jaune" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-enfant-project-squalo-jaune.jpg" alt="Project Squalo jaune" />
                 <p class="stockok"><abbr data-tip="25 casques en stock">stock</abbr></p>
                 <p class="prix">270€</p>
                 <p class="marque">Project</p>
@@ -90,7 +90,7 @@
                 <div class="classement classement35"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/casque-enfant-project-squalo-pink.jpg" alt="Project Squalo pink" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-enfant-project-squalo-pink.jpg" alt="Project Squalo pink" />
                 <p class="stockko"><abbr data-tip="Sur commande uniquement">stock</abbr></p>
                 <p class="prix">270€</p>
                 <p class="marque">Project</p>
@@ -98,7 +98,7 @@
                 <div class="classement classement40"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/casque-enfant-x60-vision-plus-blanc.jpg" alt="Nexx x60 Vision Plus blanc" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-enfant-x60-vision-plus-blanc.jpg" alt="Nexx x60 Vision Plus blanc" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">229,99€</p>
                 <p class="marque">Nexx</p>
@@ -106,7 +106,7 @@
                 <div class="classement classement45"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/casque-moto-casque-enfant-nexx-x60-spock.jpg" alt="Nexx x60 Spock" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-moto-casque-enfant-nexx-x60-spock.jpg" alt="Nexx x60 Spock" />
                 <p class="stockok"><abbr data-tip="15 casques en stock">stock</abbr></p>
                 <p class="prix">229,99€</p>
                 <p class="marque">Nexx</p>
@@ -115,7 +115,7 @@
             </article>
             <!-- ------------------------- LIGNE N°3 ------------------------- -->
             <article>
-                <img src="../images/casques/enfants/casque-nexx-x60-cool-kids-blanc-brillant.jpg" alt="Nexx x60 Cool Kids blanc brillant" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-nexx-x60-cool-kids-blanc-brillant.jpg" alt="Nexx x60 Cool Kids blanc brillant" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">245€</p>
                 <p class="marque">Nexx</p>
@@ -123,7 +123,7 @@
                 <div class="classement"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/casque-nexx-x60-cool-kids-noir-mat.jpg" alt="Nexx x60 Cool Kids noir mat" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-nexx-x60-cool-kids-noir-mat.jpg" alt="Nexx x60 Cool Kids noir mat" />
                 <p class="stockok"><abbr data-tip="25 casques en stock">stock</abbr></p>
                 <p class="prix">245€</p>
                 <p class="marque">Nexx</p>
@@ -131,7 +131,7 @@
                 <div class="classement classement05"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/casque-nexx-x60-cool-kids-rose-mat.jpg" alt="Nexx x60 Cool Kids rose mat" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-nexx-x60-cool-kids-rose-mat.jpg" alt="Nexx x60 Cool Kids rose mat" />
                 <p class="stockko"><abbr data-tip="Sur commande uniquement">stock</abbr></p>
                 <p class="prix">245€</p>
                 <p class="marque">Nexx</p>
@@ -139,7 +139,7 @@
                 <div class="classement classement10"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/casque-nexx-x60-kid-vision-neon-jaune.jpg" alt="Nexx x60 Cool Kids Vision Neon Jaune" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-nexx-x60-kid-vision-neon-jaune.jpg" alt="Nexx x60 Cool Kids Vision Neon Jaune" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">245€</p>
                 <p class="marque">Nexx</p>
@@ -147,7 +147,7 @@
                 <div class="classement classement15"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/casque-nexx-x60-kid-vision-neon-orange.jpg" alt="Nexx x60 Cool Kids Vision Neon orange" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-nexx-x60-kid-vision-neon-orange.jpg" alt="Nexx x60 Cool Kids Vision Neon orange" />
                 <p class="stockok"><abbr data-tip="15 casques en stock">stock</abbr></p>
                 <p class="prix">245€</p>
                 <p class="marque">Nexx</p>
@@ -156,7 +156,7 @@
             </article>
             <!-- ------------------------- LIGNE N°4 ------------------------- -->
             <article>
-                <img src="../images/casques/enfants/casque-nexx-x60-kids-vintage-noir-noir.jpg" alt="Nexx x60 Cool Kids Vintage noir noir" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-nexx-x60-kids-vintage-noir-noir.jpg" alt="Nexx x60 Cool Kids Vintage noir noir" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">245€</p>
                 <p class="marque">Nexx</p>
@@ -164,7 +164,7 @@
                 <div class="classement classement25"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/casque-nexx-x60-kids-vision-noir.jpg" alt="Nexx x60 Cool Kids Vision noir" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-nexx-x60-kids-vision-noir.jpg" alt="Nexx x60 Cool Kids Vision noir" />
                 <p class="stockok"><abbr data-tip="25 casques en stock">stock</abbr></p>
                 <p class="prix">245€</p>
                 <p class="marque">Nexx</p>
@@ -172,7 +172,7 @@
                 <div class="classement classement30"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/casque-torx-walt-blanc-bleu.jpg" alt="Torx Walt Blanc Bleu" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-torx-walt-blanc-bleu.jpg" alt="Torx Walt Blanc Bleu" />
                 <p class="stockko"><abbr data-tip="Sur commande uniquement">stock</abbr></p>
                 <p class="prix">200€</p>
                 <p class="marque">Torx</p>
@@ -180,7 +180,7 @@
                 <div class="classement classement35"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/casque-torx-walt-blanc-rouge.jpg" alt="Torx Walt Blanc rouge" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-torx-walt-blanc-rouge.jpg" alt="Torx Walt Blanc rouge" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">200€</p>
                 <p class="marque">Torx</p>
@@ -188,7 +188,7 @@
                 <div class="classement classement40"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/cl-xy-wanted-mc1.jpg" alt="HJC CL XY Wanted MC1" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/cl-xy-wanted-mc1.jpg" alt="HJC CL XY Wanted MC1" />
                 <p class="stockok"><abbr data-tip="15 casques en stock">stock</abbr></p>
                 <p class="prix">180€</p>
                 <p class="marque">HJC</p>
@@ -197,7 +197,7 @@
             </article>
             <!-- ------------------------- LIGNE N°5 ------------------------- -->
             <article>
-                <img src="../images/casques/enfants/cl-xy-wanted-mc2.jpg" alt="HJC CL XY Wanted MC2" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/cl-xy-wanted-mc2.jpg" alt="HJC CL XY Wanted MC2" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">185€</p>
                 <p class="marque">HJC</p>
@@ -205,7 +205,7 @@
                 <div class="classement classement50"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/cl-xy-wanted-mc5.jpg" alt="HJC CL XY Wanted MC5" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/cl-xy-wanted-mc5.jpg" alt="HJC CL XY Wanted MC5" />
                 <p class="stockok"><abbr data-tip="25 casques en stock">stock</abbr></p>
                 <p class="prix">175€</p>
                 <p class="marque">HJC</p>
@@ -213,7 +213,7 @@
                 <div class="classement"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/cly-blanc.jpg" alt="HJC CL Y Blanc" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/cly-blanc.jpg" alt="HJC CL Y Blanc" />
                 <p class="stockko"><abbr data-tip="Sur commande uniquement">stock</abbr></p>
                 <p class="prix">180€</p>
                 <p class="marque">HJC</p>
@@ -221,7 +221,7 @@
                 <div class="classement classement05"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/cly-cura-mc1.jpg" alt="HJC CL Y Cura MC1" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/cly-cura-mc1.jpg" alt="HJC CL Y Cura MC1" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">230€</p>
                 <p class="marque">HJC</p>
@@ -229,7 +229,7 @@
                 <div class="classement classement10"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/cly-cura-mc10.jpg" alt="HJC CL Y Cura MC10" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/cly-cura-mc10.jpg" alt="HJC CL Y Cura MC10" />
                 <p class="stockok"><abbr data-tip="15 casques en stock">stock</abbr></p>
                 <p class="prix">225€</p>
                 <p class="marque">HJC</p>
@@ -238,7 +238,7 @@
             </article>
             <!-- ------------------------- LIGNE N°6 ------------------------- -->
             <article>
-                <img src="../images/casques/enfants/cly-cura-mc5.jpg" alt="HJC MX ELAN MC5" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/cly-cura-mc5.jpg" alt="HJC MX ELAN MC5" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">200€</p>
                 <p class="marque">HJC</p>
@@ -246,7 +246,7 @@
                 <div class="classement classement20"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/cly-katzilla-mc10.jpg" alt="HJC Katzilla MC10" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/cly-katzilla-mc10.jpg" alt="HJC Katzilla MC10" />
                 <p class="stockok"><abbr data-tip="25 casques en stock">stock</abbr></p>
                 <p class="prix">190€</p>
                 <p class="marque">HJC</p>
@@ -254,7 +254,7 @@
                 <div class="classement classement25"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/cly-noir.jpg" alt="HJC CL Y noir" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/cly-noir.jpg" alt="HJC CL Y noir" />
                 <p class="stockko"><abbr data-tip="Sur commande uniquement">stock</abbr></p>
                 <p class="prix">199,99€</p>
                 <p class="marque">HJC</p>
@@ -262,7 +262,7 @@
                 <div class="classement classement30"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/cly-razz-mc5f.jpg" alt="HJC CL Y Razz MC5F" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/cly-razz-mc5f.jpg" alt="HJC CL Y Razz MC5F" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">230€</p>
                 <p class="marque">HJC</p>
@@ -270,7 +270,7 @@
                 <div class="classement classement35"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/cly-razz-mc8.jpg" alt="HJC CL Y MC8" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/cly-razz-mc8.jpg" alt="HJC CL Y MC8" />
                 <p class="stockok"><abbr data-tip="15 casques en stock">stock</abbr></p>
                 <p class="prix">180€</p>
                 <p class="marque">HJC</p>
@@ -279,7 +279,7 @@
             </article>
             <!-- ------------------------- LIGNE N°7 ------------------------- -->
             <article>
-                <img src="../images/casques/enfants/casque-nexx-x60-cool-kids-blanc-brillant.jpg" alt="Nexx x60 Cool Kids blanc brillant" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/casque-nexx-x60-cool-kids-blanc-brillant.jpg" alt="Nexx x60 Cool Kids blanc brillant" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">170€</p>
                 <p class="marque">Nexx</p>
@@ -287,7 +287,7 @@
                 <div class="classement classement45"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/Commando-Power.jpg" alt="Noja Commando Power" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/Commando-Power.jpg" alt="Noja Commando Power" />
                 <p class="stockok"><abbr data-tip="25 casques en stock">stock</abbr></p>
                 <p class="prix">150€</p>
                 <p class="marque">Noja</p>
@@ -295,7 +295,7 @@
                 <div class="classement classement50"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/Dynamo-Junior-Noir1.jpg" alt="Noja Junior noir" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/Dynamo-Junior-Noir1.jpg" alt="Noja Junior noir" />
                 <p class="stockko"><abbr data-tip="Sur commande uniquement">stock</abbr></p>
                 <p class="prix">160€</p>
                 <p class="marque">Noja</p>
@@ -303,7 +303,7 @@
                 <div class="classement"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/fgk01-cox-rouge-noir.jpg" alt="Cox rouge noir" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/fgk01-cox-rouge-noir.jpg" alt="Cox rouge noir" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">210€</p>
                 <p class="marque">Cox</p>
@@ -311,7 +311,7 @@
                 <div class="classement classement05"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/flash-kid-blanc.jpg" alt="Flash kid blanc" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/flash-kid-blanc.jpg" alt="Flash kid blanc" />
                 <p class="stockok"><abbr data-tip="15 casques en stock">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Flash</p>
@@ -320,7 +320,7 @@
             </article>
             <!-- ------------------------- LIGNE N°8 ------------------------- -->
             <article>
-                <img src="../images/casques/enfants/flash-kid-kokoala.jpg" alt="Flash kid kokoala" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/flash-kid-kokoala.jpg" alt="Flash kid kokoala" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">239,99€</p>
                 <p class="marque">Flash</p>
@@ -328,7 +328,7 @@
                 <div class="classement classement15"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/junior-noir-mat.jpg" alt="Flash junior noir mat" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/junior-noir-mat.jpg" alt="Flash junior noir mat" />
                 <p class="stockok"><abbr data-tip="25 casques en stock">stock</abbr></p>
                 <p class="prix">229,99€</p>
                 <p class="marque">Flash</p>
@@ -336,7 +336,7 @@
                 <div class="classement classement20"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/Junior-Noir.jpg" alt="Flash junior noir" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/Junior-Noir.jpg" alt="Flash junior noir" />
                 <p class="stockko"><abbr data-tip="Sur commande uniquement">stock</abbr></p>
                 <p class="prix">230€</p>
                 <p class="marque">Flash</p>
@@ -344,7 +344,7 @@
                 <div class="classement classement25"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/junior-rose.jpg" alt="Flash junior rose" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/junior-rose.jpg" alt="Flash junior rose" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">220€</p>
                 <p class="marque">Flash</p>
@@ -352,7 +352,7 @@
                 <div class="classement classement30"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/Junior-Titanium.jpg" alt="Flash junior Titanium" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/Junior-Titanium.jpg" alt="Flash junior Titanium" />
                 <p class="stockok"><abbr data-tip="15 casques en stock">stock</abbr></p>
                 <p class="prix">219,99€</p>
                 <p class="marque">Flash</p>
@@ -361,7 +361,7 @@
             </article>
             <!-- ------------------------- LIGNE N°9 ------------------------- -->
             <article>
-                <img src="../images/casques/enfants/open-top-vale-symbols.jpg" alt="AGV Open Top Vale Symbols" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/open-top-vale-symbols.jpg" alt="AGV Open Top Vale Symbols" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">AGV</p>
@@ -369,7 +369,7 @@
                 <div class="classement classement40"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/pretty.jpg" alt="Jetts Pretty" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/pretty.jpg" alt="Jetts Pretty" />
                 <p class="stockok"><abbr data-tip="25 casques en stock">stock</abbr></p>
                 <p class="prix">260€</p>
                 <p class="marque">Jetts</p>
@@ -377,7 +377,7 @@
                 <div class="classement classement45"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/project-coccinelle-rouge.jpg" alt="Jetts Project Coccinelle" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/project-coccinelle-rouge.jpg" alt="Jetts Project Coccinelle" />
                 <p class="stockko"><abbr data-tip="Sur commande uniquement">stock</abbr></p>
                 <p class="prix">170€</p>
                 <p class="marque">Jetts</p>
@@ -385,7 +385,7 @@
                 <div class="classement classement50"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/project-fleur-noir.jpg" alt="Jetts Project Fleur noir" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/project-fleur-noir.jpg" alt="Jetts Project Fleur noir" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">160€</p>
                 <p class="marque">Jetts</p>
@@ -393,7 +393,7 @@
                 <div class="classement"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/project-old-italy-37.jpg" alt="Jetts Project Old Italy 37" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/project-old-italy-37.jpg" alt="Jetts Project Old Italy 37" />
                 <p class="stockok"><abbr data-tip="15 casques en stock">stock</abbr></p>
                 <p class="prix">159,99€</p>
                 <p class="marque">Jetts</p>
@@ -402,7 +402,7 @@
             </article>
             <!-- ------------------------- LIGNE N°10 ------------------------- -->
             <article>
-                <img src="../images/casques/enfants/project-old-italy-38.jpg" alt="Jetts Project Old Italy 38" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/project-old-italy-38.jpg" alt="Jetts Project Old Italy 38" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">159,99€</p>
                 <p class="marque">Jetts</p>
@@ -410,7 +410,7 @@
                 <div class="classement classement10"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/Quadrant-Fragment-Black.jpg" alt="Quadrant Fragment Black" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/Quadrant-Fragment-Black.jpg" alt="Quadrant Fragment Black" />
                 <p class="stockok"><abbr data-tip="25 casques en stock">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Quadrant</p>
@@ -418,7 +418,7 @@
                 <div class="classement classement15"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/Quadrant-Fragment-Orange.jpg" alt="Quadrant Fragment Orange" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/Quadrant-Fragment-Orange.jpg" alt="Quadrant Fragment Orange" />
                 <p class="stockko"><abbr data-tip="Sur commande uniquement">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Quadrant</p>
@@ -426,7 +426,7 @@
                 <div class="classement classement20"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/Quadrant-Stripe-Black-Enfnt.jpg" alt="Quadrant Stripe Black Enfant" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/Quadrant-Stripe-Black-Enfnt.jpg" alt="Quadrant Stripe Black Enfant" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Quadrant</p>
@@ -434,7 +434,7 @@
                 <div class="classement classement25"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/Quadrant-Stripe-Red.jpg" alt="Quadrant Stripe Red" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/Quadrant-Stripe-Red.jpg" alt="Quadrant Stripe Red" />
                 <p class="stockok"><abbr data-tip="15 casques en stock">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Quadrant</p>
@@ -443,7 +443,7 @@
             </article>
             <!-- ------------------------- LIGNE N°11 ------------------------- -->
             <article>
-                <img src="../images/casques/enfants/vertice-junior.jpg" alt="Quadrant Vertice Junior" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/vertice-junior.jpg" alt="Quadrant Vertice Junior" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Quadrant</p>
@@ -451,7 +451,7 @@
                 <div class="classement classement35"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/Weave-Kid-Acid.jpg" alt="Quadrant Weave Kid Acid" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/Weave-Kid-Acid.jpg" alt="Quadrant Weave Kid Acid" />
                 <p class="stockok"><abbr data-tip="25 casques en stock">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Quadrant</p>
@@ -459,7 +459,7 @@
                 <div class="classement classement40"></div>
             </article>
             <article>
-                <img src="../images/casques/enfants/weave-kid-pandada.jpg" alt="Quadrant Weave Kid Pandada" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/enfants/weave-kid-pandada.jpg" alt="Quadrant Weave Kid Pandada" />
                 <p class="stockko"><abbr data-tip="Sur commande uniquement">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Quadrant</p>

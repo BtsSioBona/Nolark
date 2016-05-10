@@ -23,7 +23,7 @@ h1 {
 #teammap {
     display:block;
     height:633px;
-    background:url(images/nolark_team.jpg) no-repeat;
+    background:url(../images/nolark_team.jpg) no-repeat;
     position:relative;
     margin:2px auto 2px auto;
 }

@@ -78,7 +78,7 @@
 
 #casques .classement {
     margin: 10px auto 0 36px;
-    background: scroll transparent url(images/etoiles.gif) no-repeat;
+    background: scroll transparent url(../images/etoiles.gif) no-repeat;
     width: 164px;
     height: 18px;
 }

@@ -5,8 +5,8 @@
         <meta charset="UTF-8" />
         <meta name="author" content="Prénom Nom" />
         <meta name="description" content="Découvrez des casques moto dépassant même les exigences des tests de sécurité. Tous les casques Nolark au meilleur prix et avec en prime la livraison gratuite !" />
-        <link rel="stylesheet" href="../css/styles.css" />
-        <link rel="stylesheet" href="../css/casques.css" />
+        <link rel="stylesheet" href="../../src/NolarkBundle/Resources/public/css/styles.css" />
+        <link rel="stylesheet" href="../../src/NolarkBundle/Resources/public/css/casques.css" />
     </head>
     <body>
       <header>
@@ -22,7 +22,7 @@
         <section id="casques">
             <!-- ------------------------- LIGNE N°1 ------------------------- -->
             <article>
-                <img src="../images/casques/cross/CL_MX_ELAN_MC5.jpg" alt="HJC MX ELAN MC5" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/cross/CL_MX_ELAN_MC5.jpg" alt="HJC MX ELAN MC5" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">HJC</p>
@@ -30,7 +30,7 @@
                 <div class="classement classement05"></div>
             </article>
             <article>
-                <img src="../images/casques/cross/Hornet-ds-anthracite-mat.jpg" alt="Hornet DS anthracite mat" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/cross/Hornet-ds-anthracite-mat.jpg" alt="Hornet DS anthracite mat" />
                 <p class="stockok"><abbr data-tip="25 casques en stock">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Hornet</p>
@@ -38,7 +38,7 @@
                 <div class="classement classement10"></div>
             </article>
             <article>
-                <img src="../images/casques/cross/Hornet-ds-blanc.jpg" alt="Hornet DS blanc" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/cross/Hornet-ds-blanc.jpg" alt="Hornet DS blanc" />
                 <p class="stockko"><abbr data-tip="Sur commande uniquement">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Hornet</p>
@@ -46,7 +46,7 @@
                 <div class="classement classement15"></div>
             </article>
             <article>
-                <img src="../images/casques/cross/Hornet-ds-gris.jpg" alt="Hornet DS gris" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/cross/Hornet-ds-gris.jpg" alt="Hornet DS gris" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Hornet</p>
@@ -54,7 +54,7 @@
                 <div class="classement classement20"></div>
             </article>
             <article>
-                <img src="../images/casques/cross/Hornet-ds-noir-mat.jpg" alt="Hornet DS noir mat" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/cross/Hornet-ds-noir-mat.jpg" alt="Hornet DS noir mat" />
                 <p class="stockok"><abbr data-tip="15 casques en stock">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Hornet</p>
@@ -63,7 +63,7 @@
             </article>
             <!-- ------------------------- LIGNE N°2 ------------------------- -->
             <article>
-                <img src="../images/casques/cross/Hornet-ds-noir.jpg" alt="Hornet DS noir" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/cross/Hornet-ds-noir.jpg" alt="Hornet DS noir" />
                 <p class="stockok"><abbr data-tip="15 casques en stock">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Hornet</p>
@@ -71,7 +71,7 @@
                 <div class="classement classement25"></div>
             </article>
             <article>
-                <img src="../images/casques/cross/X-501-START-F.Black.jpg" alt="X 501 Start F Black" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/cross/X-501-START-F.Black.jpg" alt="X 501 Start F Black" />
                 <p class="stockok"><abbr data-tip="25 casques en stock">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">X 501</p>
@@ -79,7 +79,7 @@
                 <div class="classement classement10"></div>
             </article>
             <article>
-                <img src="../images/casques/cross/arai-vx3-frost-silver.jpg" alt="Arai vx3 frost silver" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/cross/arai-vx3-frost-silver.jpg" alt="Arai vx3 frost silver" />
                 <p class="stockko"><abbr data-tip="Sur commande uniquement">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">Arai</p>
@@ -87,7 +87,7 @@
                 <div class="classement classement15"></div>
             </article>
             <article>
-                <img src="../images/casques/cross/casque-shoei-vfx-w-noir-mat-.jpg" alt="SHOEI VFX W Noir Mat" />
+                <img src="../../src/NolarkBundle/Resources/public/images/casques/cross/casque-shoei-vfx-w-noir-mat-.jpg" alt="SHOEI VFX W Noir Mat" />
                 <p class="stockok"><abbr data-tip="Plus que 3 en stock...">stock</abbr></p>
                 <p class="prix">249,99€</p>
                 <p class="marque">SHOEI</p>

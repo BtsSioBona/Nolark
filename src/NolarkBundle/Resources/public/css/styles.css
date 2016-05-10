@@ -4,7 +4,7 @@
     Author     : JG
     Description: CSS de démo pour Nolark
 */
- @font-face { font-family: Sansumi; src: url('polices/Sansumi-Regular.ttf'); }
+ @font-face { font-family: Sansumi; src: url('../fonts/Sansumi-Regular.ttf'); }
 
 
 html {
@@ -25,7 +25,7 @@ header, nav, section, footer {
 
 header {
     height: 200px;
-    background: url('images/test.gif') no-repeat scroll center 0;
+    background: url('../images/test.gif') no-repeat scroll center 0;
 }
 
 nav {
@@ -72,7 +72,7 @@ nav li a:hover {
 
 #principal aside {
     margin-top: 0;
-    background: transparent url('images/TOPVENTES.GIF') no-repeat 0 0;
+    background: transparent url('../images/TOPVENTES.gif') no-repeat 0 0;
     vertical-align: top;
     width: 27%;
     float: right;
@@ -105,7 +105,7 @@ nav li a:hover {
 
 @font-face{
     font-family: "Fuse";
-    src: url('polices/FUSENORM.TTF') format("truetype");
+    src: url('../fonts/FUSENORM.TTF') format("truetype");
 }
 
 #sectionthema a {
@@ -139,7 +139,7 @@ transform:scale(1.3);
     transition: all 0.7s ease;
     float:left;
     width: 33%;
-    background: transparent url('images/casqueroute.png') no-repeat center 10px;
+    background: transparent url('../images/casqueroute.png') no-repeat center 10px;
 }
 
 #sectionthema #milieu {
@@ -149,7 +149,7 @@ transform:scale(1.3);
     float: left;
     width: 32%;
     margin-left: 5px;
-    background: transparent url('images/casquecross.png') no-repeat center 0;
+    background: transparent url('../images/casquecross.png') no-repeat center 0;
 }
 
 #sectionthema #droite {
@@ -158,7 +158,7 @@ transform:scale(1.3);
     transition: all 0.7s ease;
     float:right;
     width: 33%;
-    background: transparent url('images/casquepiste.png') no-repeat center 10px;
+    background: transparent url('../images/casquepiste.png') no-repeat center 10px;
 }
 
 #vide {
