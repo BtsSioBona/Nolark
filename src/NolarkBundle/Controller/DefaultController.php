@@ -31,4 +31,11 @@ class DefaultController extends Controller
         
         throw $this->createNotFoundException('Le type de casque n\'existe pas');
     }
+
+    /**
+     * @Route("/team", name="team")
+     */
+    public function teamAction() {
+        return $this->render('NolarkBundle::team.html.twig');
+    }
 }
